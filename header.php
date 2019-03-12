@@ -21,4 +21,6 @@
 </footer>
 
 <?php // CHIA HWEE LIANG 
-// CHIA HWEE LIANG?>
+// CHIA HWEE LIANG
+// CHIA HWEE LIANG
+?>

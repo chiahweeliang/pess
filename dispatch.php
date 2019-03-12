@@ -4,6 +4,7 @@ header("Location: logcall.php");
 
 // CHIA HWEE LIANG
 // CHIA HWEE LIANG
+// CHIA HWEE LIANG
 
 //$con = mysql_connect("localhost", "chiahweeliang", "chiahweeliang"); // connects to database with login credentials
 //if(!$con)

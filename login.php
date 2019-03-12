@@ -1,6 +1,7 @@
 <?php session_start();
 // CHIA HWEE LIANG
 // CHIA HWEE LIANG
+// CHIA HWEE LIANG
 if (isset($_POST["submit"])) {
 	if ($_POST['UserID'] != "") {
 		$_SESSION["UserID"] = $_POST["UserID"];
