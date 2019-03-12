@@ -3,6 +3,7 @@ if(!isset($_POST['btnProcessCall']) && !isset($_POST['btnDispatch']))
 header("Location: logcall.php");
 
 // CHIA HWEE LIANG
+// CHIA HWEE LIANG
 
 //$con = mysql_connect("localhost", "chiahweeliang", "chiahweeliang"); // connects to database with login credentials
 //if(!$con)
@@ -28,7 +29,6 @@ VALUES('$_POST[callerName]', '$_POST[contactNo]', '$_POST[incidentType]','$_POST
 //$sql= "INSERT INTO incident(callerName, phoneNumber, incidentTypeId, incidentLocation, incidentDesc, incidentStatusId) VALUES('" .$_POST['callerName']. "', '".$_POST['contactNo']."', '".$_POST['incidentType']. "', '" .$_POST['location']. "', '".$_POST['incidentDesc']. "', '$status')";
 	
 	//echo $sql;
-	
 
 	if(!mysql_query($sql,$con))
 	{

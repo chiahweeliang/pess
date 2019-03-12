@@ -35,6 +35,7 @@ else
 	?>
 <?php
 // CHIA HWEE LIANG
+// CHIA HWEE LIANG
 if(isset($_POST['Logout'])) {
   //Unset cookies and other things you want to
   unset($_SESSION['UserID']);	

@@ -218,6 +218,7 @@ mysql_close($con);
 session_start();
 
 // CHIA HWEE LIANG
+// CHIA HWEE LIANG
 if(isset($_SESSION["UserID"])) //detects if user is logged in or not
 	echo "POLICE EMERGENCY SERVICE SYSTEM | LOGGED IN USER: " . $_SESSION["UserID"];
 else
